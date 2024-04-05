@@ -10,10 +10,10 @@
 	-> In the 'otherwise' case, we don't need to do anything to the character - because it's already 
         lowercase
 	-> Then we take the elements in the list we just created and make them into a string which we store 
-        in the `snake_cased_string` variable, and strip the underscores from this in the `clean_snake_cased_string`
-             variable, which the function then returns  
-	-> Then we call the function in the `main` section of the code <- provided that this .py file is the main one 
-        (not a file which we are defining Python modules in)   
+        in the `snake_cased_string` variable, and strip the underscores from this in the 
+        `clean_snake_cased_string` variable, which the function then returns  
+	-> Then we call the function in the `main` section of the code <- provided that this .py file is the 
+        main one (not a file which we are defining Python modules in)   
 """
 
 def convert_to_snake_case(pascal_or_camel_cased_string):
